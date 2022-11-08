@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family: Idroid;
     src: url(fontes/idroid.otf);
 }
 
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to top, #043D1C, #084621,#106234, #1C8046, #24874E);
+    color: white;
+    height: 15%;
+    width: 100%;
+    padding: 3.5%;
+
+    text-align: center;
+}
+
+p#menu {
+    color: #52c481;
+    text-align: left;
+}
+
 h1, h2 {
     font-family: Idroid;
+    color: #043D1C;
+}
+
+h1#principal {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
 }
