@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf);
+}
+
+h1, h2 {
+    font-family: Idroid;
+}
