@@ -42,13 +42,11 @@ a:hover {
 }
 
 main {
-    padding: 10px;
     padding-top: 30px;
     font-size: 1.5em;
 }
 
 section {
-    margin: 20px;
     padding: 20px;
     padding-bottom: 80px;
     font-family: var(--fonte-cordel);
@@ -56,24 +54,29 @@ section {
     line-height: 2em;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 #joaninha {
-    margin: 20px;
-    padding: 20px;
-    padding-bottom: 80px;
+    padding: 80px 20px;
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.414);
 }
 
 #livro {
     margin: 20px;
-    padding: 20px;
-    padding-bottom: 80px;
+    padding: 80px 20px;
     background-image: url(imagens/background002.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.414);
 }
 
 .destaque {
