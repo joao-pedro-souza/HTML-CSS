@@ -10,3 +10,7 @@ img#iphone {
     display: flex;
     margin: auto;
 }
+
+img.botao {
+    border-radius: 50%;
+}
