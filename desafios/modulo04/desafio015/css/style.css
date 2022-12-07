@@ -5,3 +5,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+img#iphone {
+    display: flex;
+    margin: auto;
+}
